@@ -1,0 +1,175 @@
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#semiTitulo {
+    background-color: #928376 ;
+    color: #F8E8D7;
+    text-align: center;
+    padding: 1%;
+}
+nav {
+    background-color: #E2D3C5;
+    padding: 2%;
+}
+.titulo {
+    font-style: italic ;
+    font-family: cursive;
+    background-color: #92A093;
+    text-align: center;
+    color: #E2D3C5;
+}
+
+.menuA {
+    display: flex;
+    justify-content: flex-end;  
+    margin: 1%  0% -3%;
+}
+a {
+    margin: 2%;
+    font-size: 90%;
+    color: #9B8D7F;
+    text-decoration: none;
+    font-style: oblique ;
+}
+
+.huellas img {
+    height: 55vw;
+    padding: 58% 0% 0% 0%;
+}
+td img {
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    margin: 3% 38%;
+}
+section {
+    background-color: #F1F0EC;
+    color: #7E7368;
+}
+.inicio {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% 8%;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #928376;
+    margin: 3% 0%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 8% 5%;
+}
+.testimonios {
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.text p {
+    color: #92A093;
+}
+.test {
+    display: flex;
+    justify-content: center;
+    margin: 2% 3%;
+}
+.caja {
+    background-color: #928376;
+    color: #F1EEE6;
+    padding: 5vw;
+}
+footer {
+    background-color: #2F2D2B;
+    color: #F1EEE6;
+    padding: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonios img {
+    height: 15vw;
+}
+table {
+    color: #928376;
+    margin: 0% 8%;
+    display: flex;
+    flex-direction: row;
+
+}
+.desc {
+    background-color: #92A093;
+    text-align: center;
+    color: #F1EEE6;
+}
+
+.nam {
+    margin: 2% 8%;
+    text-align: center;
+
+}
+.prec {
+    color: #786E65;
+    text-align: center;
+}
+
+td:hover {
+    font-size: 130%;
+}
+tr {
+    display: flex;
+    flex-direction: column;
+}
+.menu img {
+    height: 22vw;
+    margin: 2% 0% -16%;
+   /* margin: 2% 0% -9%;*/
+}
+#app {
+    background-color: #F1F0EC;
+}
+
+.stock {
+    color: red;
+    text-align: center;
+    font-size: 150%;
+}
+
+a:active{
+    background-color: #92A093;
+}
+
+.menuA a:hover{
+    background-color: #92A093;
+    color: #F1EEE6;
+}
+
+div.subfooter {
+    background-color: #E2D3C5;
+}
+.subfooter img {
+    background-color: #E2D3C5;
+  height: 8%;
+}
+.menufooter {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 20% ;
+}
+.menufooter a{
+    color: #F1EEE6;
+    margin: 10%;
+}
+.logoFooter img{
+    height: 100%;
+}
